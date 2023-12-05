@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">FragmentsAPI</string>
+    <string name="first_task">First task</string>
+    <string name="second_task">Second task</string>
+    <string name="go_to_b">Go to B fragment</string>
+    <string name="enter_text_here">Enter text here</string>
+    <string name="back">Back</string>
+    <string name="go_to_c">Go to C fragment</string>
+    <string name="go_to_d">Go to D fragment</string>
+    <string name="go_to_a">Go to A fragment</string>
 </resources>
