@@ -8,4 +8,5 @@
     <string name="go_to_c">Go to C fragment</string>
     <string name="go_to_d">Go to D fragment</string>
     <string name="go_to_a">Go to A fragment</string>
+    <string name="message">Hello Fragment C</string>
 </resources>
