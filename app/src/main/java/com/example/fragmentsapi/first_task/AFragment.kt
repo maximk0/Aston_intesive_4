@@ -1,7 +1,6 @@
 package com.example.fragmentsapi.first_task
 
 import android.os.Bundle
-import android.util.Log
 import android.view.View
 import androidx.fragment.app.Fragment
 import com.example.fragmentsapi.R
@@ -17,7 +16,6 @@ class AFragment : Fragment(R.layout.fragment_a) {
         binding = FragmentABinding.bind(view)
 
         binding.buttonGoB.setOnClickListener {
-            Log.d("TRANS", "first task fragment a")
             parentFragmentManager.beginTransaction().run{
                 val fragment = BFragment.newInstance()
                 setReorderingAllowed(true)
