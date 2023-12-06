@@ -9,4 +9,10 @@
     <string name="go_to_d">Go to D fragment</string>
     <string name="go_to_a">Go to A fragment</string>
     <string name="message">Hello Fragment C</string>
+    <string name="change_name">Change name</string>
+    <string name="change_lastname">Change lastname</string>
+    <string name="change_phone">Change phone number</string>
+    <string name="save">Save</string>
+    <string name="header_for_edit">Edit user information</string>
+    <string name="user_info">%s</string>
 </resources>

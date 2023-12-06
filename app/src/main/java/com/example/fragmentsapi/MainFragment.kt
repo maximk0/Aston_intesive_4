@@ -6,6 +6,7 @@ import android.view.View
 import androidx.fragment.app.Fragment
 import com.example.fragmentsapi.databinding.FragmentMainBinding
 import com.example.fragmentsapi.first_task.AFragment
+import com.example.fragmentsapi.second_task.UsersFragment
 
 class MainFragment : Fragment(R.layout.fragment_main) {
 
@@ -29,6 +30,13 @@ class MainFragment : Fragment(R.layout.fragment_main) {
 
         binding.secondTaskBtn.setOnClickListener {
             Log.d("TRANS", "second task fragment main")
+            parentFragmentManager.beginTransaction().run{
+                val fragment = UsersFragment.newInstance()
+                setReorderingAllowed(true)
+                replace(R.id.fragment_container_view, fragment, UsersFragment.TAG)
+                addToBackStack(UsersFragment.TAG)
+                commit()
+            }
         }
     }
 
