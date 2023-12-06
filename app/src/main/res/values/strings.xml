@@ -14,5 +14,4 @@
     <string name="change_phone">Change phone number</string>
     <string name="save">Save</string>
     <string name="header_for_edit">Edit user information</string>
-    <string name="user_info">%s</string>
 </resources>
